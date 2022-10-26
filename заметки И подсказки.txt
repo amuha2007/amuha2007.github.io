@@ -1,0 +1,12 @@
+видео подсказка https://www.youtube.com/watch?v=GNrdg3PzpJQ&t=6978s
+что бы создать проект пишем в терминале npx create-reac-app 
+в папке public чистим проект от нежелательных компонентов - оставляем index.html
+в index.html удаляем лишее , мета теги, манифест
+в папке src удаляем все кроме App.js , index.js
+в App.js удаляем все что внутри дива className='App'
+в app.js пишем вверху import React from 'react'
+в index.js удаляем лишнее например strictMode и цсс файлы
+
+далее нам надо подключить библиотеки реакта (
+
+)
