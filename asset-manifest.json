@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6c040fee.css",
+    "main.js": "/static/js/main.95bd20b4.js",
+    "static/media/MyPhoto.jpg": "/static/media/MyPhoto.4416043bbd0d1319befc.jpg",
+    "static/media/whatsUp.png": "/static/media/whatsUp.15956fa4ca42ede69527.png",
+    "static/media/Instagramm.png": "/static/media/Instagramm.18234c4d04fb37fee8af.png",
+    "static/media/gitHub2.png": "/static/media/gitHub2.21c3a0d1e9e417ade07d.png",
+    "static/media/telegram.png": "/static/media/telegram.b12022597a64d6f29f1b.png",
+    "static/media/React.png": "/static/media/React.354258d4f1b1228575b5.png",
+    "static/media/JS.png": "/static/media/JS.db9638cd99e8ec39ad22.png",
+    "static/media/gmail.png": "/static/media/gmail.62e2c5f5222f148dbfd5.png",
+    "static/media/facebook.png": "/static/media/facebook.6146831ff724a040a8b2.png",
+    "static/media/upwork.png": "/static/media/upwork.eb446075535427c03ba1.png",
+    "static/media/phone.png": "/static/media/phone.422c7e4ed3871714ffea.png",
+    "static/media/css.png": "/static/media/css.a854abfe725ae2f4008c.png",
+    "static/media/tegHtml.png": "/static/media/tegHtml.3fc75d7ccdfdbc61ead2.png",
+    "static/media/agile.png": "/static/media/agile.68789b5372014be83899.png",
+    "static/media/API.png": "/static/media/API.3b1f22a2427ec70c0742.png",
+    "static/media/docker.png": "/static/media/docker.bf1e22226c13a13e6423.png",
+    "static/media/Unittesting.png": "/static/media/Unittesting.ff7830e0a6044cd34825.png",
+    "index.html": "/index.html",
+    "main.6c040fee.css.map": "/static/css/main.6c040fee.css.map",
+    "main.95bd20b4.js.map": "/static/js/main.95bd20b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c040fee.css",
+    "static/js/main.95bd20b4.js"
+  ]
+}
