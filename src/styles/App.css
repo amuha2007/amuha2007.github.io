@@ -3,15 +3,9 @@
     padding:0;
     box-sizing: border-box;
 }
-html{
-    height: 100%;
-}
-body{
-    height: 100%;
-    
-}
+
 #root{
-    height: 100%;
+    
     display: flex;
     place-items: center;
 }
@@ -20,7 +14,7 @@ body{
     width: 100%;
     justify-content: center;
     font-family: Gilroy;
-    height: 100%;
+    
     align-items: center;
     font-family: 'Kanit', sans-serif;
 }
