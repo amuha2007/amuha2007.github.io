@@ -74,7 +74,7 @@
 }
 
 .MainContainer_active{
-    display: flex;
+    
     
     animation-name: mainContainerActive;
     animation-duration: 1s;
@@ -489,8 +489,56 @@ height: 600px;
     transition: opacity 200ms;
   }
 
-@media screen and (max-width:450px){
+@media screen and (max-width:520px){
     nav{
         flex-direction: column;
+    }
+    /* .mainConteinerText{
+        max-width: 200px;
+    } */
+    
+    .DocerText{
+        white-space: inherit;
+    }
+
+    .AppMain{
+        width: 350px;
+    }
+
+    .MainContainer_active{
+        width: 300px;
+        left: 0px;
+    }
+
+    .MainContainer{
+        width: 300px;
+        left: 0px;
+    }
+
+    .DocerText{
+        display: flex !important;
+        flex-direction: column !important; 
+    }
+    .DocerText>p{
+        margin-left: 0px !important;
+    }
+    
+}
+
+@media screen and (max-width:400px){
+    .AppMain {
+        width: 250px;
+    }
+    .MainContainer_active {
+        width: 200px;
+        left: 0px;
+    }
+    .MainContainer{
+        width: 200px;
+        left: 0px;
+        justify-content: center;
+    }
+    .DocerText>p {
+        width: 145px;
     }
 }
