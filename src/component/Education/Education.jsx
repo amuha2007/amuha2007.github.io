@@ -50,12 +50,37 @@ const Education =(props)=>{
 
     return(
         
-        <div  className={clas} ref={Ref}>
+       <div  className={clas} ref={Ref}>
             <div className="mainContainerWraperEducation" >
 
                 {data.map((elem,index) => 
+                    
                     <div key={index}  style={{display:'flex', alignItems:'center',marginBottom:'15px'}}>
-                        <div className="mainContainerImg">
+                        {elem.header==='Skillbox'?
+                        <div>
+                            <div className="mainContainerImg">
+                                <img style={{borderRadius: '15px'}} src={elem.img}/>
+
+                            </div>
+                            <div>
+                                <div className="mainConteinerHeader">
+                                        {elem.header}
+                                </div>
+                                <div className="mainConteinerEducationYears">
+                                        {elem.years}
+                                </div>
+                                <div className="mainConteinerText">
+                                        {elem.major.map((elem)=>{
+                                            return(
+                                                <p key={elem}>{elem}</p>
+                                            )
+                                        })}
+                                </div>
+                            </div>
+                        </div>
+                            :
+                            <div>
+                            <div className="mainContainerImg">
                                 <img src={elem.img}/>
                             </div>
 
@@ -70,10 +95,19 @@ const Education =(props)=>{
                                         {elem.major}
                                 </div>
                             </div>
+                            </div>
+                        }
+                        
+                        
+
+                            
                     </div>
+                    
                 )}
+                
             </div>
         </div>   
+          
         
     )
     
