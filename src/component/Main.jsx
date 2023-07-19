@@ -34,6 +34,7 @@ import icoHTML from '../img/ico/technology/tegHtml.png';
 import icoUpWork from '../img/ico/upwork.png';
 import icoMyItScool from '../img/ico/MyItScool.png';
 import stickProIco from '../img/ico/stickProIco.png';
+import skilboxIco from '../img/ico/skillBox.png';
 import { Transition, TransitionGroup,CSSTransition } from "react-transition-group";
 import {useSpring , animated, Spring} from 'react-spring';
 export {mainBody}
@@ -86,6 +87,12 @@ const mainBody={
             years:'2020-2021',
             major:'IT English courses',
             img:icoMyItScool
+        },
+        fourth:{
+            header:'Skillbox',
+            years:'2021-2022',
+            major:['React.js','TypeScript'],
+            img:skilboxIco
         }
     },
     Experience:{
